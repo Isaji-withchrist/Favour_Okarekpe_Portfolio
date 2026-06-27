@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 import { NavLink } from "react-router";
-
 const navLinks = [
   { label: "Home", path: "/" },
   { label: "Projects", path: "/Projects" },
@@ -27,7 +26,7 @@ export default function Navbar() {
           width: "100%",
           maxWidth: 1280,
           margin: "0 auto",
-          padding: "16px 24px",
+          padding:"16px 24px",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
