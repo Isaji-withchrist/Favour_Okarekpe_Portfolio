@@ -58,7 +58,7 @@ export default function Hero() {
         lineHeight: 1.1,
       }}
     >
-      <span style={{ color: "#0A0A0A" }}>Crafting </span>
+      <span style={{ color: "#0A0A0A" }}>I help craft</span>
       <span style={{ color: "#FF4D8D" }}>Digital</span>
       <br />
       <span style={{ color: "#FF4D8D" }}>Experiences</span>
