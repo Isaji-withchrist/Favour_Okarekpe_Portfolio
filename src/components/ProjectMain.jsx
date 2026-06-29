@@ -88,7 +88,7 @@ export default function Projects() {
             <span style={{ color: "#FF4D8D" }}>Works</span>
           </h1>
           <p style={{ margin: 0, maxWidth: 672, color: "#4A4A4A", fontSize: isMobile ? 16 : 18, fontFamily: "Inter, sans-serif", fontWeight: 400, lineHeight: "28.8px" }}>
-            A curated collection of frontend projects I've worked on — from fintech apps to brand platforms — built with React, Vite, and a strong eye for detail.
+            Here's a curated collection of frontend projects I've worked on — from fintech apps to brand platforms — built with React, Vite, and a strong eye for detail.
           </p>
         </div>
 
