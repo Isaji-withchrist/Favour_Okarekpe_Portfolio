@@ -36,26 +36,30 @@ export default function Footer() {
         </div>
 
         <div style={{ display: "flex", flexWrap: "wrap", gap: isMobile ? 16 : 32 }}>
-          {socials.map(({ label, href }) => (
-            
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color: "#9A9A9A",
-                fontSize: isMobile ? 14 : 16,
-                fontFamily: "Inter, sans-serif",
-                fontWeight: 400,
-                textDecoration: "none",
-                transition: "color 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.color = "#FF4D8D")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#9A9A9A")}
-            >
-              {label}
-            </a>
-          ))}
+        {socials.map(({ label, href }) => (
+  <a
+    key={label}
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      color: "#9A9A9A",
+      fontSize: isMobile ? 14 : 16,
+      fontFamily: "Inter, sans-serif",
+      fontWeight: 400,
+      textDecoration: "none",
+      transition: "color 0.2s",
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.color = "#FF4D8D";
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.color = "#9A9A9A";
+    }}
+  >
+    {label}
+  </a>
+))}
         </div>
       </div>
     </footer>
