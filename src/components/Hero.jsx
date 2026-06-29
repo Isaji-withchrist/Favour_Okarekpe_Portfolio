@@ -27,25 +27,7 @@ export default function Hero() {
           gap: isMobile ? 32 : 48,
         }}
       >
-        {/* Available badge */}
-        <div
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 8,
-            padding: "4px 12px",
-            background: "#FFF0F7",
-            borderRadius: 9999,
-            border: "1px solid rgba(255,77,141,0.20)",
-            alignSelf: "flex-start",
-          }}
-        >
-          <div style={{ width: 8, height: 8, background: "#FF4D8D", borderRadius: 9999 }} />
-          <span style={{ color: "#FF4D8D", fontSize: 12, fontFamily: "JetBrains Mono, monospace", fontWeight: 500 }}>
-            AVAILABLE FOR PROJECTS
-          </span>
-        </div>
-
+        
         {/* Hero row */}
 <div
   style={{
