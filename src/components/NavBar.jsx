@@ -81,8 +81,8 @@ export default function Navbar() {
 
         {/* Desktop resume button */}
         {!isMobile && (
-          <Link
-            to="/resume"
+          <a
+            href="/Favour_Okarekpe_Resume.pdf"
             style={{
               padding: "8px 24px",
               background: "#FF4D8D",
@@ -99,7 +99,7 @@ export default function Navbar() {
             onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
           >
             Resume
-          </Link>
+          </a>
         )}
 
         {/* Mobile hamburger */}
@@ -158,8 +158,8 @@ export default function Navbar() {
               {label}
             </NavLink>
           ))}
-          <Link
-            to="/resume"
+          <a
+            href="/Favour_Okarekpe_Resume.pdf"
             onClick={() => setMenuOpen(false)}
             style={{
               marginTop: 16,
@@ -176,7 +176,7 @@ export default function Navbar() {
             }}
           >
             Resume
-          </Link>
+          </a>
         </div>
       )}
     </nav>
